@@ -4,12 +4,12 @@
 ----------------------------------------------------
 ### _**Projeto**_
 
-- [TAP]
-- [Documento de Visão]
-- [Post Mortem]
+- [TAP](pages/TAP.md)
+- [Documento de Visão](pages/Documento_de_Visao.md)
+- [Post Mortem](pages/Post_Mortem.md)
 - Arquitetura
-    - [Documento de Arquitetura de Software]
-    - [Prototipação]
+    - [Documento de Arquitetura de Software](pages/DocumentoDeArquiteturaDeSoftware.md)
+    - [Prototipação](pages/Prototipa%C3%A7%C3%A3o.md)
 ----------------------------------------------------
 ### _**Equipe**_
 
