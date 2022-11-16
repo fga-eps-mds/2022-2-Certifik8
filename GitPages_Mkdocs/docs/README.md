@@ -42,9 +42,9 @@ Desenvolvedor: amarelo #
 -->
 
 <table>
-  <tr>
+  <tr >
     <td align="center">
-      <a href="#">
+      <a href="#" style="color: white;">
         <img src="https://avatars.githubusercontent.com/u/88786258?v=4" width="100px;" alt="Foto PH"/><br>
         <sub>
           <b>Pedro Henrique</b>
@@ -52,15 +52,15 @@ Desenvolvedor: amarelo #
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="#" style="color: white;">
         <img src="https://avatars.githubusercontent.com/u/90795603?v=4" width="100px;" alt="Foto Pedro Sampaio"/><br>
         <sub>
           <b>Pedro Sampaio</b>
         </sub>
       </a>
     </td>
-    <td align="center">
-      <a href="#">
+    <td align="center" style="color: white;">
+      <a href="#" style="color: white;">
         <img src="https://avatars.githubusercontent.com/u/86811628?v=4" width="100px;" alt="Foto Leandro Silva"/><br>
         <sub>
           <b>Leandro Silva</b>
@@ -68,7 +68,7 @@ Desenvolvedor: amarelo #
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="#" style="color: white;">
         <img src="https://avatars.githubusercontent.com/u/55855365?v=4" width="100px;" alt="Foto Victório Lázaro"/><br>
         <sub>
           <b>Victório Lázaro</b>
@@ -76,7 +76,7 @@ Desenvolvedor: amarelo #
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="#" style="color: white;">
         <img src="https://avatars.githubusercontent.com/u/95941136?v=4" width="100px;" alt="Foto Daniel Sousa"/><br>
         <sub>
           <b>Daniel Sousa</b>
@@ -84,7 +84,7 @@ Desenvolvedor: amarelo #
       </a>
     </td>
      <td align="center">
-      <a href="#">
+      <a href="#" style="color: white;">
         <img src="https://avatars.githubusercontent.com/u/12275797?v=4" width="100px;" alt="Foto Geovane Alessandro"/><br>
         <sub>
           <b>Geovane Alessandro</b>
