@@ -10,6 +10,7 @@
 
 ### 📄 Sobre o projeto
 > A ser definido.<br/> 
+O Projeto envolve
 
 ## ⚙️ Tecnologias utilizadas
 <div align="center">
