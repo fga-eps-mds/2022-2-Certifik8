@@ -1,18 +1,7 @@
 site_name: Squad 8 - MDS
 site_url: https://squad8.com/
 nav:
-    - Home: README.md
-    - Objetivos: pages/objetivo.md
-    - Projeto:
-        - TAP: pages/TAP.md
-        - Documento de Visão: pages/Documento_de_Visao.md
-        - Post Mortem: pages/Post_Mortem.md
-        - Arquitetura: pages/DocumentoDeArquitetura.md
-    - Equipe:
-        - Atas: pages/atas_Sprint_Review_E_Retro.md
-        - Backlog: pages/backlog.md
-    - Quadro do Conhecimento: https://docs.google.com/spreadsheets/d/1R-KY0yStp42-O2eF-HT9vGTSqxKZoa3F/edit#gid=1999005253
-    
+    - Home: Landing_Page.md
 
 theme:
     name: material  
