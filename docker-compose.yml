@@ -1,0 +1,6 @@
+version: '2.12.2'
+services:
+  app:
+    build: .
+    container_name: "certiflow"
+    command: "python main.py"
