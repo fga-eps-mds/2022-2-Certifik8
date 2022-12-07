@@ -5,7 +5,7 @@ import os
 def convert_html_to_pdf(html_page, save_name):
     pdfkit.from_file(html_page, save_name)
 
-#Funcao que pega o caminho para pasta download do sistema, podendo ser tanto Windows quanto Unix.
+#Funcao que pega o caminho para pasta download do sistema.
 def get_download_path():
     if os.name == 'nt':
         import winreg
