@@ -1,14 +1,15 @@
 site_name: Squad 8 - MDS
 site_url: https://squad8.com/
+
 nav:
-    - Home: Landing_Page.md
+    - Home: index.md
 
 theme:
-    name: material  
+    name: material
     navigation_depth: 4
     extra_css:
         - stylesheets/extra.css
     palette:
         accent: red
         scheme: slate
-       
+    logo: assets/icons/folder.ico
