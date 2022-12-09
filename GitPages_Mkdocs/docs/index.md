@@ -1,5 +1,12 @@
-# Grupo 8
-##  Status do Projeto
+---
+hide:
+  - navigation
+  - toc
+---
+
+<h1 style="color: blue" >
+    Certifik8 
+</h1>
 
 <p align="center"> 
  <h3 align="left"> 
@@ -15,19 +22,13 @@
 <div align="center">
 As tecnologias foram determinadas de acordo com a necessidade das atividades a serem desenvolvidas.
 
-Frontend | Backend | Database
-:--------- | :------:  | :------:  
-  | | 
-  |   
+<p align="center">
+    <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=python,html,css,docker,git,"/>
+    </a>
+</p> 
 
 <br>
-<p align="center"> 
-  <img  height="30" width="40" src="">
-  <img  height="30" width="40" src="" />
-  <img  height="30" width="40" src="">
-  <img  height="30" width="40" src="" />
-  <img  height="30" width="40" src="" />
-  <img  height="30" width="40" src="" />
 </div>
 <br/> 
 
