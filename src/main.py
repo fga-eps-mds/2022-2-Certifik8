@@ -47,6 +47,7 @@ class Html2Pdf:
         "encoding": "UTF-8",
     }
     
+    
     def __init__(self, html="template.html"):
         self.html2pdf = html
 
@@ -73,9 +74,6 @@ class Certificados:
     html_template = 'template.html'
     DataEmissao = DataEmissao()
 
-    def get_full_path(self, filename):
-        pre = os.path.dirname(os.path.realpath(__file__))
-        return pre + "/" + filename
 
     def xlsx_content(self, path):
         data_frame = pd.read_excel(path)
@@ -93,7 +91,7 @@ class Certificados:
         try:
             df = self.xlsx_content(filename)
         except:
-            df = self.xlsx_content(self.get_full_path(filename))
+            pass
 
         data_emissao = self.DataEmissao.getDataPorExtenso()
         for i in df.index:
@@ -116,14 +114,18 @@ class Certificados:
             Html2Pdfs.convert(df['Nome'][i])
             os.remove(df['Nome'][i]+'.html')
 
-'''
-filename, 
-                nome_evento, 
-                carga_hor,
-                nome_prof,
-                data_inicial,
-                data_final
-'''
 if __name__ == "__main__":
     certificados = Certificados()
-    certificados.gerarCertificados("teste.xlsx", "Curso Básico Python", "10", "Bernardini Glauco", "Departamento de Computação", "08 de Novembro de 2022", "17 de Novembro de 2022")
+    print('Bem-vindo ao Certifik8, gerador de certificados da Semana Universitária da UnB')
+    path_tabela = input('Digite o endereço da tabela:\n')
+    nome_curso = input('Digite o nome do curso:\n')
+    carga_horaria = input('Digite a carga horaria:\n')
+    nome_professor = input('Digite o nome do professor:\n')
+    nome_departamento = input('Digite o nome do departamento:\n')
+    data_inicial = input('Digite a data de início do curso(Ex: 08 de Novembro de 2022):\n')
+    data_final = input('Digite a data de encerramento do curso(Ex: 17 de Novembro de 2022):\n')
+    
+    if os.path.exists(path_tabela) and os.path.splitext(path_tabela)[1] == '.xlsx':
+        certificados.gerarCertificados(path_tabela, nome_curso, carga_horaria, nome_professor, nome_departamento, data_inicial, data_final)
+    else:
+        print("Tabela não Encontrada")

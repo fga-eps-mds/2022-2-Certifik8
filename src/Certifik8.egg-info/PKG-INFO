@@ -1,3 +1,14 @@
+Metadata-Version: 2.1
+Name: Certifik8
+Version: 0.0.1
+Summary: Certifik8 é um gerador de certificados automático para Semana Universitária da UnB. O Certifik8 só funciona em sistemas operacionais Linux. Para conseguir executá-lo, o usuário precisa instalar o Python, as biblioteca pdfkit, BeautifulSoup e pandas e o wkhtmltopdf. Para rodar no computador, digite o comando pip show Certifik8 para obter o endereço da biblioteca e digite o comando python3 endereço_biblioteca/Certifik8/main.py.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 
 # 2022-2-Certifik8
 
@@ -76,7 +87,6 @@ docker run --name cont_squad08 -it squad08
  ```
  pip show Certifik8 
  ```
-
  ```
  python3 endereço_biblioteca/Certifik8/main.py.
  ```
