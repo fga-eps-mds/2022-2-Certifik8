@@ -2,57 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://squad8.com/</loc>
-         <lastmod>2022-11-08</lastmod>
+         <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://squad8.com/_coverpage/</loc>
-         <lastmod>2022-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://squad8.com/_sidebar/</loc>
-         <lastmod>2022-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://squad8.com/pages/DocumentoDeArquiteturaDeSoftware/</loc>
-         <lastmod>2022-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://squad8.com/pages/Documento_de_Visao/</loc>
-         <lastmod>2022-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://squad8.com/pages/Post_Mortem/</loc>
-         <lastmod>2022-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://squad8.com/pages/Prototipa%C3%A7%C3%A3o/</loc>
-         <lastmod>2022-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://squad8.com/pages/TAP/</loc>
-         <lastmod>2022-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://squad8.com/pages/atas_Sprint_Review_E_Retro/</loc>
-         <lastmod>2022-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://squad8.com/pages/backlog/</loc>
-         <lastmod>2022-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://squad8.com/pages/objetivo/</loc>
-         <lastmod>2022-11-08</lastmod>
+         <loc>https://squad8.com/pages/</loc>
+         <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -1,16 +1,23 @@
 site_name: Squad 8 - MDS
 site_url: https://squad8.com/
+repo_url: https://github.com/fga-eps-mds/2022-2-Squad08
+repo_name: 2022-2-Squad08
+
 
 nav:
-    - Home: index.md
+    - Página Principal: index.md
 
 theme:
+    icon:
+        repo: fontawesome/brands/github
     name: material
     navigation_depth: 4
     extra_css:
         - stylesheets/extra.css
     palette:
-        accent: red
+        accent: green
         scheme: slate
+        primary: purple
+    
     logo: assets/icons/folder.ico
 
