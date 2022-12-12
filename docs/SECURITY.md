@@ -7,7 +7,7 @@
 
 ## Relatando uma Vulnerabilidade
 
-Se houver alguma vulnerabilidade no repositório **2022-2-Squad08**, não hesite em _relatá-la_.
+Se houver alguma vulnerabilidade no repositório **2022-2-Certifik8**, não hesite em _relatá-la_.
 
 - Use um destes e-mails:
 	 - pedro.sampaio.dias.rocha@gmail.com

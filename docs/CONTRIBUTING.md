@@ -11,7 +11,7 @@ Antes de começar a contribuir para o projeto, crie uma issue para descrever sua
 ### Branchs
 
 #### Crie uma nova branch
-Para criar uma nova branch, digite o comando 'git checkout -o nome_branch' no terminal.
+Para criar uma nova branch, digite o comando 'git checkout -b nome_branch' no terminal.
 
 #### Troque de branch
 Para mudar para uma branch existente, digite o comando 'git checkout nome_branch' no terminal.
