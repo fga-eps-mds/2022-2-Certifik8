@@ -6,23 +6,28 @@ hide:
 
 # 2022-2-Certifik8
 
-<a name="readme-top"></a>
-
-<div align="center">
+<center>
 
 [![Contributors](https://img.shields.io/github/contributors/fga-eps-mds/2022-2-Squad08.svg?style=for-the-badge&color=blueviolet)](https://github.com/fga-eps-mds/2022-2-Squad08/graphs/contributors)
 [![Issues](https://img.shields.io/github/issues/fga-eps-mds/2022-2-Squad08.svg?style=for-the-badge&color=blueviolet)](https://github.com/fga-eps-mds/2022-2-Squad08/issues)
 [![MIT License](https://img.shields.io/github/license/fga-eps-mds/2022-2-Squad08.svg?style=for-the-badge&color=blueviolet)](https://github.com/fga-eps-mds/2022-2-Squad08/blob/main/LICENSE)
 
-</div>
+</center>
 
-<br />
-<div align="center">
-  <a href="https://github.com/fga-eps-mds/2022-2-Squad08">
-    <img src="../docs/img/Leandrynnho_Professor_holding_a_certificate_in_harvard_c6597855-799e-4236-92ec-bf61d4f931e8.png" style = "width: 350px">
-  </a>
+<!-- <br /> -->
+<!-- <div align="center"> -->
+<!-- <a href="https://github.com/fga-eps-mds/2022-2-Squad08"> -->
 
-  <h3 align="center">Certifik8</h3>
+<center> 
+![exemplos de certificados](img/Leandrynnho_Professor_holding_a_certificate_in_harvard_c6597855-799e-4236-92ec-bf61d4f931e8.png)
+</center>
+
+<!-- <img src="../docs/img/Leandrynnho_Professor_holding_a_certificate_in_harvard_c6597855-799e-4236-92ec-bf61d4f931e8.png" style = "width: 350px"> -->
+  <!-- </a> -->
+
+<center>
+## Certifik8
+</center>
 
   <p align="center">
    Gerador Automatico de Certificados
@@ -31,7 +36,7 @@ hide:
     -
     <a href="https://github.com/fga-eps-mds/2022-2-Squad08/issues">Recomendar Feature</a>
   </p>
-</div>
+<!-- </div> -->
 
 <!-- TABLE OF CONTENTS -->
 <details>
