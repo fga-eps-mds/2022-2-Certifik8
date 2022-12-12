@@ -1,8 +1,10 @@
 LICENSE
 README.md
 pyproject.toml
-setup.cfg
+src/Certifik8/__init__.py
+src/Certifik8/main.py
 src/Certifik8.egg-info/PKG-INFO
 src/Certifik8.egg-info/SOURCES.txt
 src/Certifik8.egg-info/dependency_links.txt
+src/Certifik8.egg-info/requires.txt
 src/Certifik8.egg-info/top_level.txt

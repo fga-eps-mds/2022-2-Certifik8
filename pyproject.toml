@@ -1,6 +1,28 @@
 [build-system]
-requires = [
-    "setuptools>=42",
-    "wheel"
-]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "Certifik8"
+version = "0.0.2"
+authors = [
+  { name="Victório Lázaro", email="victorio.lazaro15@gmail.com"},
+  { name="Daniel Sousa", email="sousadanielsb@gmail.com"},
+  { name="Pedro Sampaio", email="pedro.sampaio.dias.rocha@gmail.com"},
+  { name="Leandro Silva", email="leanddrosouzasilva@gmail.com"},
+  { name="Pedro Henrique", email="pedrodsm1819@gmail.com"},
+  { name="Geovane Freitas", email="galefreitas@gmail.com"}
+]
+dependencies = [
+  "pandas==1.5.2",
+  "pdfkit==1.0.0",
+  "beautifulsoup4==4.11.1",
+]
+description = "Certifik8 é um gerador de certificados automático para Semana Universitária da UnB, o Certifik8 só funciona em sistemas operacionais Linux. Para conseguir executá-lo, o usuário precisa instalar o Python e o wkhtmltopdf. Para rodar no computador, digite o comando pip show Certifik8 para obter o endereço da biblioteca e digite o comando python3 endereço_biblioteca/Certifik8/main.py."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
