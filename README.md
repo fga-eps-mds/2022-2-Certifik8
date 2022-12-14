@@ -61,7 +61,7 @@ Certifik8 é um gerador de certificados automático criado em Python. O projeto 
 </p>
 
 ## 🤖 Funcionalidade
-O Certifik8 necessita de duas entradas de dados, uma tabela (Excel), no formato XLSX, e dados gerais sobre o evento. Para cada conjunto de informações um documento com um modelo já preestabelecido é gerado. Os certificados em formato PDF são salvos diretamente na pasta Downloads.
+O Certifik8 necessita de duas entradas de dados, uma tabela (Excel) no formato XLSX, e dados gerais sobre o evento. Para cada conjunto de informações passadas, um documento com um modelo já preestabelecido é gerado. Os certificados em formato PDF são salvos diretamente na pasta Downloads do computador do usuário.
 
 <div align="center">
   <a href="https://github.com/fga-eps-mds/2022-2-Certifik8/blob/main/docs/exemplo/Melissa%20Ribeiro%20Araujo.png">
