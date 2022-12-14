@@ -1,12 +1,16 @@
-site_name: Squad 8 - MDS
+site_name: MDS - Squad 8 - Certifik8
 site_url: https://squad8.com/
-repo_url: https://github.com/fga-eps-mds/2022-2-Squad08
-repo_name: 2022-2-Squad08
+repo_url: https://github.com/fga-eps-mds/2022-2-Certifik8.git
+repo_name: 2022-2-Certifik8
 
 
 nav:
-    - Página Principal: index.md
+    - Página Principal: docs/index.md
 
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  
 theme:
     icon:
         repo: fontawesome/brands/github
@@ -19,5 +23,5 @@ theme:
         scheme: slate
         primary: purple
     
-    logo: assets/icons/folder.ico
+    logo: assets/icons/Certifik8.ico
 
