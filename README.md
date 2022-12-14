@@ -4,15 +4,15 @@
 
 <div align="center">
 
-[![Contributors](https://img.shields.io/github/contributors/fga-eps-mds/2022-2-Squad08.svg?style=for-the-badge&color=e703f7)](https://github.com/fga-eps-mds/2022-2-Squad08/graphs/contributors)
-[![Issues](https://img.shields.io/github/issues/fga-eps-mds/2022-2-Squad08.svg?style=for-the-badge&color=e703f7)](https://github.com/fga-eps-mds/2022-2-Squad08/issues)
-[![MIT License](https://img.shields.io/github/license/fga-eps-mds/2022-2-Squad08.svg?style=for-the-badge&color=e703f7)](https://github.com/fga-eps-mds/2022-2-Squad08/blob/main/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/fga-eps-mds/2022-2-Certifik8.svg?style=for-the-badge&color=e703f7)](https://github.com/fga-eps-mds/2022-2-Certifik8/graphs/contributors)
+[![Issues](https://img.shields.io/github/issues/fga-eps-mds/2022-2-Certifik8.svg?style=for-the-badge&color=e703f7)](https://github.com/fga-eps-mds/2022-2-Certifik8/issues)
+[![MIT License](https://img.shields.io/github/license/fga-eps-mds/2022-2-Certifik8.svg?style=for-the-badge&color=e703f7)](https://github.com/fga-eps-mds/2022-2-Certifik8/blob/main/LICENSE)
 
 </div>
 
 <br />
 <div align="center">
-  <a href="https://github.com/fga-eps-mds/2022-2-Squad08">
+  <a href="https://github.com/fga-eps-mds/2022-2-Certifik8">
     <img src="https://github.com/fga-eps-mds/2022-2-Certifik8/blob/main/docs/imagens/logo.png" width="300" height="300">
   </a>
   
@@ -23,9 +23,9 @@
     <br />
     <a href="docs">Documentos</a>
     -
-    <a href="https://github.com/fga-eps-mds/2022-2-Squad08/blob/main/SECURITY.md">Reportar Bug</a>
+    <a href="https://github.com/fga-eps-mds/2022-2-Certifik8/blob/main/docs/SECURITY.md#pol%C3%ADtica-de-seguran%C3%A7a">Reportar Bug</a>
     -
-    <a href="https://github.com/fga-eps-mds/2022-2-Squad08/issues">Recomendar Feature</a>
+    <a href="https://github.com/fga-eps-mds/2022-2-Certifik8/issues">Recomendar Feature</a>
   </p>
 </div>
 
@@ -34,15 +34,22 @@
   <summary>Conteúdo</summary>
   <ol>
     <li>
-      <a href="#Sobre-o-projeto">📝 Sobre o projeto</a>
+      <a href="#-sobre-o-projeto">📝 Sobre o projeto</a>
       <ul>
-        <li><a href="#Tecnologias">💻 Tecnologias</a></li>
+        <li><a href="#-tecnologias">💻 Tecnologias</a></li>
       </ul>
     </li>
-    <li><a href="#Funcionalidade">🤖 Funcionalidade</a></li>
-    <li><a href="#Requisitos">❗ Requisitos</a></li>
-    <li><a href="#Como-rodar">🛞 Como rodar</a></li>
-    <li><a href="#Devenvolvedores">👨‍💻 Desenvolvedores</a></li>
+    <li><a href="#-funcionalidade">🤖 Funcionalidade</a></li>
+    <li><a href="#-requisitos">❗ Requisitos</a></li>
+    <li><a href="#-como-rodar">🛞 Como rodar</a>
+	<ul>
+        <li><a href="#---usuário">👩‍🦰 Usuário</a></li>
+        </ul>
+	<ul>
+        <li><a href="#--%EF%B8%8F-desenvolvimento-local">🧙🏼‍♀️ Desenvolvimento local</a></li>
+        </ul>  
+    </li>
+    <li><a href="#-desenvolvedores">👨‍💻 Desenvolvedores</a></li>
   </ol>
 </details>
 
