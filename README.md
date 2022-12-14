@@ -41,7 +41,7 @@
     </li>
     <li><a href="#-funcionalidade">🤖 Funcionalidade</a></li>
     <li><a href="#-requisitos">❗ Requisitos</a></li>
-    <li><a href="#-como-rodar">🛞 Como rodar</a>
+    <li><a href="#-como-rodar">🛞 Como executar</a>
 	<ul>
         <li><a href="#---usuário">👩‍🦰 Usuário</a></li>
         </ul>
@@ -115,7 +115,7 @@ Testado no:
     sudo apt install wkhtmltopdf
     ```
 
-## 🛞 Como rodar
+## 🛞 Como executar/rodar
 ### **- 👩‍🦰 Usuário**
 1. **Instalando o Certifik8:**
 ```
@@ -132,7 +132,7 @@ pip install -i https://test.pypi.org/simple/ Certifik8==0.0.2
 Copie o endereço após a "Location", marcado de vermelho na imagem.
 </div>
 
-3. **Rodando a aplicação:**
+3. **Executando a aplicação:**
  ```
  python3 {endereço_biblioteca}/Certifik8/main.py
  ```
@@ -170,7 +170,7 @@ Substitua a chave {endereço_biblioteca} pelo endereço copiado no passo 2.
 git clone https://github.com/fga-eps-mds/2022-2-Certifik8.git
 ```
 
-2. **Rode os comando:**
+2. **Rode os comandos:**
 
 ```
 sudo docker build -t squad08
