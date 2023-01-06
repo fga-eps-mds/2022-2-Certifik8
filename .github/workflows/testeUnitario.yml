@@ -1,0 +1,26 @@
+name: teste-unitario-automatizado
+
+on: [push] # Quando o usuário realizar um push, será feito os testes
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.7", "3.8", "3.9", "3.10"]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Test with pytest
+      run: | # Vai realizar os testes e em seguida vai gerar um documento em Junit
+        pip install pytest
+        pip install pytest-cov
+        pytest test_data_emissao.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
