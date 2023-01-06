@@ -1,11 +1,6 @@
 name: teste-unitario-automatizado
 
-on: # Quando o usuário realizar um push, será feito os testes
-  push:
-    branches: [main, spike-teste]
-  pull-request:
-    branches: [main, spike-teste]
-  schedule: [{cron: "0 0 * * *"}]
+on: [push] # Quando o usuário realizar um push, será feito os testes
 
 jobs:
   build:
