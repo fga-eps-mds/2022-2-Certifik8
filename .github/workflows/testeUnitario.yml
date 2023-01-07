@@ -13,8 +13,9 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: |
-        pip install --upgrade pip
-        pip3 install opencv-python
+        pip install opencv-contrib-python
+        pip install opencv-python
+        python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Test with pytest
       run: | # Vai realizar os testes e em seguida vai gerar um documento em Junit
