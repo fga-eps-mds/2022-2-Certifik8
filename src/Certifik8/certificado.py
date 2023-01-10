@@ -86,7 +86,7 @@ class Certificados:
 
     def gerarCertificados(
         self,
-        filename,
+        path_name,
         nome_evento,
         carga_hor,
         nome_prof,
@@ -95,7 +95,7 @@ class Certificados:
         data_final,
     ):
         try:
-            df = self.xlsx_content(filename)
+            df = self.xlsx_content(path_name)
         except:
             pass
 
@@ -117,8 +117,13 @@ class Certificados:
             soup.find("span", class_="data_emissao").replace_with(data_emissao)
             with open(df["Nome"][i] + ".html", "w") as file:
                 file.writelines(soup.prettify())
+
+            foldername = path_name.split('/')
+            foldername = foldername[-1]
+            foldername = foldername.split('.')[0]
+
             Html2Pdfs = Html2Pdf(html=df["Nome"][i] + ".html")
-            Html2Pdfs.convert(df["Nome"][i])
+            Html2Pdfs.convert(df["Nome"][i], foldername)
             os.remove(df["Nome"][i] + ".html")
 
 
