@@ -1,7 +1,7 @@
-from html2pdf import Html2Pdf
+from src.Certifik8.html2pdf import Html2Pdf
 import pandas as pd
 import os
-from data_emissao import DataEmissao
+from src.Certifik8.data_emissao import DataEmissao
 from bs4 import BeautifulSoup
 
 html_doc = """
@@ -21,7 +21,6 @@ html_doc = """
             font-family: 'Roboto', sans-serif;
             background-image: url(https://cdn.discordapp.com/attachments/1034883038586351647/1049011662566465546/template.png);
         }
-
         #texto_principal{
             position: absolute;
             top: 250px;
@@ -32,11 +31,9 @@ html_doc = """
             font-weight: 700;
         
         }
-
         .nome_participante, .cpf_participante, .nome_evento, .nome_prof, .nome_dep, .cargo_participante, .frequencia_participante{
             text-transform: uppercase;
         }
-
         #local_data{
             position: absolute;
             top: 400px;
@@ -44,20 +41,17 @@ html_doc = """
             font-size: 22px;
             font-weight: 700;
         }
-
         #informacoes_adicionais{
             position: absolute;
             top: 470px;
             width: 1096px;
         }
-
         .texto_adicional{
             margin: 0;
             font-size: 22px;
             text-align: center;
             font-weight: 700;
         }
-
         p.nao_negrito{
             font-size: 20px;
             font-weight: 400;
@@ -84,7 +78,6 @@ html_doc = """
 """
 
 class Certificados:
-    html_template = "template/template.html"
     DataEmissao = DataEmissao()
 
     def xlsx_content(self, path):

@@ -92,22 +92,10 @@ Testado no:
 </div>
 
 
-
 **Para conseguir executá-lo, o usuário precisa instalar:**
   - **Python3 e Pip**
     ```
     sudo apt install python3 && sudo apt install python3-pip
-    ```
- 
-  - **As bibliotecas pdfkit, BeautifulSoup e Pandas**
-    ```
-    pip install pdfkit
-    ```
-    ```
-    pip install beautifulsoup4
-    ```
-    ```
-    pip install pandas
     ```
 
   - **Instalar a ferramenta wkhtmltopdf**
