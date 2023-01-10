@@ -1,8 +1,8 @@
-from certificado import Certificados
+from src.Certifik8.certificado import Certificados
+'''from certificado import Certificados'''
 import os
 
-
-if __name__ == "__main__":
+def run():
     certificados = Certificados()
     print(
         "Bem-vindo ao Certifik8, gerador de certificados da Semana Universitária da UnB"

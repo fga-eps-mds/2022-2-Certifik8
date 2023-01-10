@@ -1,2 +1,4 @@
 dist/
 Certifik8.egg-info/
+src/Certifik8/__pycache__/
+poetry.lock
