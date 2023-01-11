@@ -14,9 +14,8 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install -r requirements.txt
     - name: Test with pytest
       run: | # Vai realizar os testes e em seguida vai gerar um documento em Junit
         pip install pytest
         pip install pytest-cov
-        pytest 2022-2-Certifik8/src/Certifik8/test_data_emissao.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+        pytest --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
