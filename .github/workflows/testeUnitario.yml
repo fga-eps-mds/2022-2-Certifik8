@@ -18,5 +18,6 @@ jobs:
       run: | # Vai realizar os testes e em seguida vai gerar um documento em Junit
         pip install pytest
         pip install pytest-cov
+        pip install requests
         pip install certifik8
         pytest --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
