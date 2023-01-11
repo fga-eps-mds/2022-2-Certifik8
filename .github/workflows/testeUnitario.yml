@@ -11,6 +11,10 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
     - name: Test with pytest
       run: | # Vai realizar os testes e em seguida vai gerar um documento em Junit
         pip install pytest
