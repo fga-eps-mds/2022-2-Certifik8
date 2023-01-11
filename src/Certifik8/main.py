@@ -1,4 +1,5 @@
 from src.Certifik8.certificado import Certificados
+from tkinter import filedialog
 '''from certificado import Certificados'''
 import os
 
@@ -7,7 +8,7 @@ def run():
     print(
         "Bem-vindo ao Certifik8, gerador de certificados da Semana Universitária da UnB"
     )
-    path_tabela = input("Digite o endereço da tabela:\n")
+    path_tabela = filedialog.askopenfilename()
     nome_curso = input("Digite o nome do curso:\n")
     carga_horaria = input("Digite a carga horaria:\n")
     nome_professor = input("Digite o nome do professor:\n")
