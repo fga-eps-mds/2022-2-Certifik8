@@ -86,34 +86,35 @@ class Certificados:
 
     def gerarCertificados(
         self,
-        filename,
-        nome_evento,
-        carga_hor,
-        nome_prof,
-        nome_dep,
-        data_inicial,
-        data_final,
+        filename
     ):
         try:
             df = self.xlsx_content(filename)
         except:
             pass
 
+        def separarTabela(self, df):
+            df_info = df[["Informações"]].copy()
+            df.drop(columns=["Informações"], inplace = True)
+            return df_info
+        
+        df_info = separarTabela(self, df)
+
         data_emissao = self.DataEmissao.getDataPorExtenso()
         for i in df.index:
             soup = BeautifulSoup(html_doc, "html.parser")
             soup.find("span", class_="nome_participante").replace_with(df["Nome"][i])
             soup.find("span", class_="cpf_participante").replace_with(df["cpf"][i])
-            soup.find("span", class_="nome_evento").replace_with(nome_evento)
-            soup.find("span", class_="carga_hor").replace_with(carga_hor)
-            soup.find("span", class_="nome_prof").replace_with(nome_prof)
-            soup.find("span", class_="nome_dep").replace_with(nome_dep)
+            soup.find("span", class_="nome_evento").replace_with(df_info.iloc[0, 0])
+            soup.find("span", class_="carga_hor").replace_with(df_info.iloc[1, 0])
+            soup.find("span", class_="nome_prof").replace_with(df_info.iloc[2, 0])
+            soup.find("span", class_="nome_dep").replace_with(df_info.iloc[3, 0])
             soup.find("span", class_="cargo_participante").replace_with(df["Função"][i])
             soup.find("span", class_="frequencia_participante").replace_with(
                 str(df["Frequência"][i])
             )
-            soup.find("span", class_="data_inicial").replace_with(data_inicial)
-            soup.find("span", class_="data_final").replace_with(data_final)
+            soup.find("span", class_="data_inicial").replace_with(df_info.iloc[4, 0])
+            soup.find("span", class_="data_final").replace_with(df_info.iloc[5, 0])
             soup.find("span", class_="data_emissao").replace_with(data_emissao)
             with open(df["Nome"][i] + ".html", "w") as file:
                 file.writelines(soup.prettify())
